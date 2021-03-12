@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>index</title>
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="index.jsp" class="logo">cost manager</a>
+			<nav id="nav">
+				<a href="index.html">소개</a> <a href="generic.html">계산기</a> <a
+					href="generic.html">마이페이지</a> <a href="./login.spring">로그인</a> <a
+					href="elements.html">회원가입</a>
+			</nav>
+		</div>
+	</header>
+	<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+	<!-- One -->
+	<section id="one">
+		<jsp:include page="/WEB-INF/views/innerjoin.jsp" flush="false"/>
+	</section>
+
+
+	<!-- Footer -->
+	<section id="footer">
+		<div class="inner">
+			<header>
+				<h2>여긴 footer</h2>
+			</header>
+		</div>
+	</section>
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
